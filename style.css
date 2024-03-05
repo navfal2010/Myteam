@@ -363,7 +363,7 @@
 
 }
 
-@media(max-width:375px) {
+@media(max-width:430px) {
     .website__header {
         padding-top: 48px;
         padding-left: 24px;
