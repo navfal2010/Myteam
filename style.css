@@ -126,7 +126,7 @@
 }
 
 .wrapper_cards__card {
-    width: 350px;
+    width: 33,33%;
     height: 275px;
     padding-top: 44px;
     background-color: var(--bgThird);
