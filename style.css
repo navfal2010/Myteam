@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --colorWhite: white;
+    --bgFirst: #014E56;
+    --bgSecond: #004047;
+    --bgThird: #012F34;
+    --bgFourth: #F67E7E;
+    --bgFiveth: #002529;
+}
+
+.website__header {
+    padding-top: 73px;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-bottom: 120px;
+    background-color: var(--bgFirst);
+}
+
+.header__first_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    gap: 56px;
+    align-items: center;
+}
+
+.nav__ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.li__a {
+    color: var(--colorWhite);
+    text-decoration: none;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+
+.nav__button {
+    width: 153px;
+    height: 48px;
+    border: 2px white solid;
+    border-radius: 30px;
+    background: none;
+    color: var(--colorWhite);
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    transition: all 1s;
+}
+
+.nav__button:hover {
+    transition: all 1s;
+    background-color: white;
+    color: #014E56;
+}
+
+.photo-burger {
+    display: none;
+}
+
+.header__second_container {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.second_container__first_text {
+    font-family: Livvic;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0px;
+    color: var(--colorWhite);
+}
+
+.second_container__second_text {
+    width: 730px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: var(--colorWhite);
+}
+
+.main__first_section {
+    background-color: var(--bgSecond);
+    padding-top: 71px;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-bottom: 179px;
+}
+
+.first_section__text {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: var(--colorWhite);
+    text-align: center;
+}
+
+.first_section__wrapper_cards {
+    margin-top: 69px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wrapper_cards__card {
+    width: 350px;
+    height: 275px;
+    padding-top: 44px;
+    background-color: var(--bgThird);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transition: all 1s;
+}
+
+.wrapper_cards__card:hover {
+    transition: all 1s;
+    transform: scale(1.1);
+}
+
+.card__first_text {
+    margin-top: 23px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #79C8C7;
+}
+
+.card__second_text {
+    font-family: Livvic;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: var(--colorWhite);
+}
+
+.card__img {
+    position: absolute;
+    bottom: -20px;
+}
+
+.main__second_section {
+    background: var(--bgThird);
+    padding-top: 114px;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-bottom: 114px;
+}
+
+.second_section__text {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: var(--colorWhite);
+}
+
+.second_section__wrapper_logos {
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper_logos__first_img {
+    width: 165px;
+    height: 23px;
+}
+
+.main__third_section {
+    padding: 76px 261px;
+    background-color: var(--bgFourth);
+    display: flex;
+    justify-content: space-between;
+}
+
+.third_section__text {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #012F34;
+}
+
+.third_section__button {
+    width: 153px;
+    height: 48px;
+    border: 2px #012F34 solid;
+    border-radius: 30px;
+    background: none;
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    transition: all 1s;
+}
+
+.third_section__button:hover {
+    transition: all 1s;
+    background-color: var(--bgThird);
+    color: #F67E7E;
+}
+
+.website__footer {
+    padding-top: 48px;
+    padding-left: 159px;
+    padding-right: 171px;
+    padding-bottom: 25px;
+    background-color: var(--bgFiveth);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__box {
+    display: flex;
+    gap: 16px;
+}
+
+@media(max-width:768px) {
+    .website__header {
+        padding-top: 64px;
+        padding-left: 39px;
+        padding-right: 40px;
+        padding-bottom: 112px;
+    }
+
+    .header__nav {
+        display: flex;
+        gap: 51px;
+    }
+
+    .header__second_container {
+        margin-top: 112px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .second_container__second_text {
+        width: 457px;
+        text-align: center;
+    }
+
+    .main__first_section {
+        padding-top: 100px;
+        padding-left: 95px;
+        padding-right: 96px;
+        padding-bottom: 73px;
+    }
+
+    .first_section__text {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: var(--colorWhite);
+    }
+
+    .first_section__wrapper_cards {
+        margin-top: 48px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .wrapper_cards__card {
+        width: 281px;
+        height: 253px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        transition: all 1s;
+        margin-bottom: 76px;
+    }
+
+    .main__second_section {
+        padding-top: 100px;
+        padding-left: 39px;
+        padding-right: 40px;
+        padding-bottom: 100px;
+    }
+
+    .second_section__text {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .wrapper_logos__first_img {
+        width: 103px;
+        height: 17px;
+    }
+
+    .wrapper_logos__last_img {
+        width: 61px;
+        height: 28px;
+    }
+
+    .main__third_section {
+        padding: 84px 97px;
+        background-color: var(--bgFourth);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .third_section__text {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+    }
+
+    .website__footer {
+        padding-top: 30px;
+        padding-left: 56px;
+        padding-right: 23px;
+        padding-bottom: 30px;
+        background-color: var(--bgFiveth);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+@media(max-width:375px) {
+    .website__header {
+        padding-top: 48px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 108px;
+    }
+
+    .photo-burger {
+        display: block;
+    }
+
+    .nav__ul {
+        display: none;
+    }
+
+    .li__a {
+        display: none;
+    }
+
+    .nav__button {
+        display: none;
+    }
+
+    .header__second_container {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .second_container__second_text {
+        margin-top: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main__first_section {
+        padding-top: 88px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 140px;
+    }
+
+    .first_section__text {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .first_section__wrapper_cards {
+        margin-top: 48px;
+        display: flex;
+        justify-content: center;
+        gap: 52px;
+        flex-wrap: wrap;
+    }
+
+    .wrapper_cards__card {
+        width: 100%;
+        height: 253px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        transition: all 1s;
+        margin-bottom: 0px;
+    }
+
+    .main__second_section {
+        padding-top: 72px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 72px;
+    }
+
+    .second_section__text {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .second_section__wrapper_logos {
+        margin-top: 52px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 47px;
+    }
+
+    .wrapper_logos__first_img {
+        width: 147px;
+        height: 20px;
+    }
+
+    .wrapper_logos__last_img {
+        width: 86px;
+        height: 33px;
+    }
+
+    .main__third_section {
+        padding: 83px 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third_section__text {
+        width: 327px;
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .website__footer {
+        padding-top: 66px;
+        padding-left: 134px;
+        padding-right: 134px;
+        padding-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+
+}
